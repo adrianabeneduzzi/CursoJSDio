@@ -64,11 +64,47 @@ var placar;
 
      let object = {propriedade1: 'valor1', propriedade2: 'valor2', propriedade3: 'valor3', }
 
-     for(let indice = 0; indice < array.length; indice++){
+     /*for(let indice = 0; indice < array.length; indice++){
         console.log(indice);
+     }*/
+
+     /*For/in executa repetição a partir de uma propriedade
+     for(let i in array) {
+        console.log(i);
+     }
+     //For/in com object
+     for(i in object ){
+        console.log(i);
+     }*/
+
+     //For/of
+     for(i of array) {
+        console.log(i);
      }
 
-     //For/in executa repetição a partir de uma propriedade
+     //For/of com object
+     for(i of object. propriedade1) {
+        console.log(i);
+     }
+
+     //While
+     var a = 0;
+
+     /*/while(a < 10) {
+        a++;
+        console.log(a);
+     }*/
+     
+     //Do While
+     do {
+        a++;
+        console.log(a);
+     }while (a < 10)
+
+
+
+
+
    
 
 
